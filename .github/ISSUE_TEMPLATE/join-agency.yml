@@ -1,0 +1,29 @@
+name: Join Agency
+description: Hey I have completed the application and created a pull request 
+title: "Join Agency Apllication"
+labels: [Review]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      placeholder: Write your real name
+    validations:
+      required: true
+  
+  - type: input
+    id: smail
+    attributes:
+      label: Smail ID
+      placeholder: Please provide the smail ID
+    validations:
+      required: true
+ 
+  - type: input
+    id: link
+    attributes:
+      label: Link to pull request
+      placeholder: Share the link to the pull request
+    validations:
+      required: true
+  
